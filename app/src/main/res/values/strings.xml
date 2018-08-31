@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">Hello Kotlin</string>
+    <string name="toast">Toast</string>
+    <string name="snackbar">Snackbar</string>
+    <string name="alert">Alert</string>
+    <string name="custom_alert">Custom Alert</string>
+    <string name="list_alert">List Alert</string>
+    <string name="appcompat_alert">AppCompat Alert</string>
+    <string name="process_dialog">Process Dialog</string>
+    <string name="xml_less_activity">XML less Activity</string>
+</resources>

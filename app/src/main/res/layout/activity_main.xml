@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rootLayout"
+    android:orientation="vertical"
+    android:gravity="center"
+    tools:context=".MainActivity">
+
+    <Button
+        android:id="@+id/toastBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/toast" />
+    <Button
+        android:id="@+id/snackbarBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/snackbar" />
+    <Button
+        android:id="@+id/alertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/alert" />
+    <Button
+        android:id="@+id/appCompatAlertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/appcompat_alert" />
+    <Button
+        android:id="@+id/customAlertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/custom_alert" />
+    <Button
+        android:id="@+id/listAlertBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/list_alert" />
+    <Button
+        android:id="@+id/processDialogBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/process_dialog" />
+    <Button
+        android:id="@+id/activityWithoutXML"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/xml_less_activity" />
+
+</LinearLayout>
